@@ -14,7 +14,7 @@ const App = () => {
   
   return (
     <div id="main">
-      <img src={star} alt="Star" height={`${height}px'} width={'${width}px'}  onClick={handleClick}/>
+      <img src={star} alt="Star" style={{width:`${width}px`,height:`${height}px`}}  onClick={handleClick}/>
     </div>
   )
 }
