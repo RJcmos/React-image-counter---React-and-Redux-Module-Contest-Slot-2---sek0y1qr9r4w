@@ -5,11 +5,11 @@ const App = () => {
   const initialWidth=300;
   const initialHeigth=300;
   const [width, setWidth]=useState(initialWidth);
-  const [height, setWidth]=useState(initialHeigth);
+  const [height, setHeight]=useState(initialHeigth);
 
   const handleClick=()=>{
     setWidth((prevWidth)=>prevWidth+2);
-    setWidth((prevHeight)=>prevHeight+2);
+    setHeight((prevHeight)=>prevHeight+2);
   }
   
   return (
